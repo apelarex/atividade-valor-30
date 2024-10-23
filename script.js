@@ -1,8 +1,8 @@
 let cliente = [];
 
 // 
-function cadastrarCliente(nome, cpf, email, senha) {
-    const cliente = { nome, cpf, email, senha };
+function cadastrarCliente(nome, email) {
+    const cliente = { nome, email };
     cliente.push(cliente);
     atualizarTabela();
 }
@@ -16,7 +16,6 @@ function atualizarTabela() {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${cliente.nome}</td>
-            <td>${cliente.cpf}</td>
             <td>${cliente.email}</td>
         `;
         tbody.appendChild(row);
