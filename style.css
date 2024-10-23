@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#tabela-cadastro {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 25px;
+}
+
+#tabela-cadastro th, #tabela-cadastro td {
+    border: 1px solid #15ff00;
+    padding: 15px;
+    text-align: left;
+}
+
+#tabela-cadastro th {
+    background-color: #000000;
+}
